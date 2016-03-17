@@ -9,15 +9,15 @@ public class FlowLayout_t extends JFrame {
 	JButton jb1,jb2,jb3,jb4,jb5,jb6,jb7;
 	public FlowLayout_t()  {
 		
-		//´´½¨×é¼ş
-				jb1=new JButton("ÕÅÈı");
-				jb2=new JButton("ÀîËÄ");
-				jb3=new JButton("ÍõÎå");
-				jb4=new JButton("ËïÁù");
-				jb5=new JButton("ÖÜÆß");
-				jb6=new JButton("¹ù°Ë");
-				jb7=new JButton("Áõ¾Å");
-				//Ìí¼Ó×é¼ş		
+		// can u pls add the comments in english so that other can help 
+				jb1=new JButton("å¼ ä¸‰");
+				jb2=new JButton("æå››");
+				jb3=new JButton("ç‹äº”");
+				jb4=new JButton("å­™å…­");
+				jb5=new JButton("å‘¨ä¸ƒ");
+				jb6=new JButton("éƒ­å…«");
+				jb7=new JButton("åˆ˜ä¹");
+				//æ·»åŠ ç»„ä»¶		
 				this.add(jb1);
 				this.add(jb2);
 				this.add(jb3);
@@ -25,20 +25,20 @@ public class FlowLayout_t extends JFrame {
 				this.add(jb5);
 				this.add(jb6);
 				this.add(jb7);
-				//ÉèÖÃ²¼¾Ö¹ÜÀíÆ÷
+				//è®¾ç½®å¸ƒå±€ç®¡ç†å™¨
 				//this.setLayout(new FlowLayout());
 				//this.setLayout(new FlowLayout(FlowLayout.LEFT));
 				this.setLayout(new FlowLayout(FlowLayout.LEFT));
-				//ÉèÖÃ¹Ì¶¨´°¿Ú
+				//è®¾ç½®å›ºå®šçª—å£
 				this.setResizable(false);
 				
-				//ÉèÖÃ´°ÌåÊôĞÔ
-				this.setTitle("¸¡¶¯²¼¾Ö°¸Àı");
+				//è®¾ç½®çª—ä½“å±æ€§
+				this.setTitle("æµ®åŠ¨å¸ƒå±€æ¡ˆä¾‹");
 				this.setSize(300, 300);
 				this.setLocation(200,200);
 				this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 				
-				//ÏÔÊ¾
+				//æ˜¾ç¤º
 				this.setVisible(true);
 				
 				
